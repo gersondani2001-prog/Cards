@@ -1,0 +1,56 @@
+/* El código de css cascada de estilos y atributos */
+@charset "UTF-8";
+@charset 'iso-8859-15';
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background: #212121;
+}
+.container_{
+    margin: 3% 1% 3% 3%;
+    overflow: hidden;
+}
+.card_{
+    width: 18rem;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 5px;
+    float:left !important;
+    margin: 0% 1%;
+}
+.card_img{
+    width: 18rem;
+    height: 200px !important;
+    border-radius: 5px;
+    height: auto;
+}
+.card_body{
+    padding: 8% 5%;
+}
+.card_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 2% 0;
+}
+.card_text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 0 0 7% 0;
+}
+.btn_{
+    background:#0278ae;
+    text-decoration: none;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 3%;
+    border-radius: 3px; 
+}
